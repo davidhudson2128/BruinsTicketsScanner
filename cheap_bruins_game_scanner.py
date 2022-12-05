@@ -282,4 +282,4 @@ class CheapBruinsGameScanner:
 
 
 if __name__ == '__main__':
-    CheapBruinsGameScanner(output_price_threshold=70, sms_price_threshold=40)
+    CheapBruinsGameScanner(output_price_threshold=90, sms_price_threshold=40)
