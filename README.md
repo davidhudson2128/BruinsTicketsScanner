@@ -1,8 +1,7 @@
 # Bruins-Tickets-Scanner
 
-This project periodically scans across multiple ticket sale platforms (Stubhub and Seatgeek) and looks for ‘cheap’ Boston Bruins games in Boston, MA.
-A ‘cheap’ game is one in which the lowest ticket price for that game is under a set price threshold. These results are automatically saved to the ‘output.txt’ file.
+This project, built in Python, periodically scans across multiple ticket sale platforms using their APIs, and looks for ‘cheap’ Boston Bruins games in Boston, MA. A ‘cheap’ game is one in which the lowest ticket price for that game is under a set price threshold. These results are automatically saved to the ‘output.txt’ file.
 
 If a game is found which has a minimum ticket price under another threshold, a text message is sent to a phone number notifying them of the cheap game.
 
-This project is running on an Ubuntu server which periodically pushes the 'output.txt' file to this repository.
+This project is running on an Ubuntu server which periodically pushes the 'output.txt' file to this repository. The project currently scans across the Stubhub and SeatGeek ticket platforms.
